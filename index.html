@@ -35,7 +35,7 @@
               >Contact</a
             >
           </li>
-          <li class="nav__link">
+          <li class="nav__link click">
             <a
               href="#"
               class="nav__link--anchor nav__link-effect link__hover-effect--black"
@@ -54,19 +54,66 @@
                 Here's more <b class="orange">about me</b>.
             </p>
             <div class="social__list">
-              <a href="https://www.linkedin.com/in/tedros-t-kidane-a3b75216a/" class="social__link click">
+              <a href="https://www.linkedin.com/in/tedros-t-kidane-a3b75216a/" target="_blank" class="social__link click">
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              <a href="https://github.com/TedrosTK" class="social__link click">
+              <a href="https://github.com/TedrosTK" target="_blank" class="social__link click">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="assets/my_resume.pdf" class="social__link click">
+              <a href="assets/my_resume.pdf" target="_blank" class="social__link click">
                 <i class="fas fa-file-pdf"></i>
               </a>
             </div>
         </div>
 
       </header>
+      <button class="mail__btn click">
+        <i class="fas fa-envelope"></i>
+      </button>
+      <a href="#projects" class="scroll">
+        <div class="scroll__icon click">
+
+        </div>
+      </a>
+    </section>
+    <section class="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="orange">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/blinker mockup.png" alt="" class="project">
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car Sales Projects
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript, Vue, VueX
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Consectetur, nam, perspiciatis voluptas eaque beatae eos 
+                    blanditiis sapiente quasi soluta nihil dolores animi assumenda 
+                    reprehenderit vel perferendis, pariatur non. A, debitis?
+                  </p>
+                  <div class="project_description--links">
+                    <a href="https://github.com/TedrosTK" class="project__description--link">/
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="project__description--link">/
+                      <i class="fas fa-link"></i>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   </body>
 </html>
